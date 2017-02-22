@@ -1,6 +1,3 @@
-# CarND-LaneLines-P1
-Udacity Self Driving Car Nanodegree - Finding Lane Lines Project
-
 #**Finding Lane Lines on the Road** 
 
 **Finding Lane Lines on the Road**
