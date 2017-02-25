@@ -16,6 +16,7 @@ The goals / steps of this project are the following:
 ###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My Pipeline:
+
 1. Convert the image to greyscale.
 
 2. Apply Gaussian Blur to image.
@@ -36,6 +37,7 @@ My Pipeline:
 
 10. Merge the "lines" image onto the original to return.
 
+In my code I kept the original draw_lines() function as-is to draw the mask vertices.
 
 
 
