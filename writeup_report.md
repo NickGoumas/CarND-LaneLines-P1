@@ -15,11 +15,20 @@ The goals / steps of this project are the following:
 
 ###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My Pipeline:
+1) Convert the image to greyscale.
+2) Apply Gaussian Blur to image.
+3) Perform Canny Edge Transform to highlight edges.
+4) Apply a mask to remove unwanted parts of the image.
+5) Perform Hough Transform to detect lines in the image.
+6) Sort lines detected into two groups, left and right.
+7) Perform linear regression on both groups using Scikit-learn.
+8) Compute running average of slope and intercept for each line, over n frames.
+9) Draw left and right lines on a blank image using running averages.
+10) Merge the "lines" image onto the original to return.
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+
 
 ![alt text][image1]
 
