@@ -12,8 +12,7 @@ The goals / steps of this project are the following:
 ---
 
 ### Reflection
-
-My Pipeline:
+###1. My Pipeline:
 
 1. Convert the image to greyscale.
 
