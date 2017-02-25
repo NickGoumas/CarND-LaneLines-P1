@@ -58,5 +58,10 @@ I'll break up this section into two parts. First, possible improvements specific
 ####This Exercise.
 1. Creating a more complex mask with a "no go" region directly in front of the vehicle. This may reduce some of the stray lines created especially in the challenge clip.
 2. It may be possible to shift the masking layer left or right depending on how the previous lines were calculated. This could allow a tighter mask.
-3. 
+3. I used a simple averageing loop to smooth out line changes. Other algorithms could work better. Exponential decay is one idea.
+
+####Realistic Simulator/Prototype.
+1. The mask could be shifted in part by the direction of the steering wheel.
+2. The smoothing function (average, decay, etc) could be tuned based on speed of vehicle.
+
 
