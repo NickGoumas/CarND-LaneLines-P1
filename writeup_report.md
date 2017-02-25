@@ -7,13 +7,11 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/output_solidYellowCurve.png "Grayscale"
+[image1]: ./output_images/output_solidYellowCurve.png "Solid Yellow Curve"
 
 ---
 
 ### Reflection
-
-###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My Pipeline:
 
@@ -37,8 +35,11 @@ My Pipeline:
 
 10. Merge the "lines" image onto the original to return.
 
-In my code I kept the original draw_lines() function as-is to draw the mask vertices.
+In my code I kept the original draw_lines() function as-is to draw the masking vertices. This can be seen in the middle picture below. To draw the required lane lines I created two functions called line_reg() and draw_side_lines(). 
 
+The line_reg() function takes a list of hough lines and a number representing how many previous hough line lists the output will be averaged with. Each time it is called, it seperates the hough lines by slope and assigns them to a left or right group. It then performs a linear regression on each group to determine the slope and intercept of the best-fit line. It then returns these four variables. Two left and two right.
+
+The draw_side_lines() function takes the image the lines will eventually be drawn on and teh four variables previously mentioned. It uses the image input to determine the size of the output and is hardcoded to draw lines from the bottom of the image up to the horizontal masking vertex. Using those Y coordinates and the slope and intercepts it solves for the X coordinates for each side. It then uses cv2.line to trace the line. This is output as a black image with transparent lines to be merged with the original image later.
 
 
 ![alt text][image1]
