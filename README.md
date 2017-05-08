@@ -18,13 +18,21 @@ This is my first project for the Udacity Self Driving Car Nanodegree. The goal w
 
 
 ### Original "White Lane Lines"
-![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OriginalWhiteRight.gif "Original Video")
+![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OriginalWhiteRight.gif?raw=true "Original Video")
 
 ### Overlayed "White Lane Lines"
-![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OverlayWhiteRight.gif "Overlay Video")
+![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OverlayWhiteRight.gif?raw=true "Overlay Video")
 
 ### Original "Yellow Lane Lines"
 ![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OriginalYellowLeft.gif?raw=true "Original Video")
 
 ### Overlayed "Yellow Lane Lines"
 ![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OverlayYellowLeft.gif?raw=true "Overlay Video")
+
+## Not so great "Challenge Video"
+
+### Original
+![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OriginalChallenge.gif?raw=true "Original Video")
+
+### Overlayed
+![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OverlayChallenge.gif?raw=true "Overlay Video")
