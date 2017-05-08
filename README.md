@@ -16,4 +16,4 @@ This is my first project for the Udacity Self Driving Car Nanodegree. The goal w
 7. Left and right lines are overlayed on frame.
 8. Modified frame is returned.
 
-![alt text](CarND-LaneLines-P1/output_clips/OriginalWhiteRight.gif "Original Video")
+![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OriginalWhiteRight.gif "Original Video")
