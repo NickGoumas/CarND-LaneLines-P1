@@ -22,3 +22,9 @@ This is my first project for the Udacity Self Driving Car Nanodegree. The goal w
 
 ### Overlayed "White Lane Lines"
 ![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OverlayWhiteRight.gif "Overlay Video")
+
+### Original "Yellow Lane Lines"
+![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OriginalYellowLeft.gif?raw=true "Original Video")
+
+### Overlayed "Yellow Lane Lines"
+![alt text](https://github.com/NickGoumas/CarND-LaneLines-P1/blob/master/output_clips/OverlayYellowLeft.gif?raw=true "Overlay Video")
